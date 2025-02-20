@@ -21,6 +21,7 @@ ZigbeeThermostat	KEYWORD1
 ZigbeeFlowSensor	KEYWORD1
 ZigbeePressureSensor	KEYWORD1
 ZigbeeOccupancySensor	KEYWORD1
+ZigbeeMetering	KEYWORD1
 
 # Other
 zigbee_role_t	KEYWORD1
