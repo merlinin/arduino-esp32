@@ -520,6 +520,7 @@ const char *ZigbeeCore::getDeviceTypeString(esp_zb_ha_standard_devices_t deviceI
     case ESP_ZB_HA_TEST_DEVICE_ID:                       return "Custom HA device for test";
     case ESP_ZB_HA_CUSTOM_TUNNEL_DEVICE_ID:              return "Custom Tunnel device";
     case ESP_ZB_HA_CUSTOM_ATTR_DEVICE_ID:                return "Custom Attributes Device";
+    case ESP_ZB_HA_SIMPLE_METERING_DEVICE_ID:            return "Simple Metering Device";
     default:                                             return "Unknown device type";
   }
 }
